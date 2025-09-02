@@ -1,6 +1,7 @@
 @tool
 extends MeshInstance3D
 const MAPREND_VERSION := "0.2.3a"   # fix: use get_16() & 0xFFFF; column-major; signed alt; LE
+# This is working and utilized on 9/1/25 ... may have z value problems... to fix.... 7:22pm 9/1/25
 
 # --- Minimal inputs ---
 @export var map_mul_path: String = "res://assets/data/map0.mul"
